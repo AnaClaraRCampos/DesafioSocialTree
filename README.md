@@ -1,0 +1,1 @@
+Neste projeto criei uma página com uma lista de links para ser usada em perfis de redes sociais. Utilizo somente HTML e CSS. 

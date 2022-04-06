@@ -1,0 +1,51 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+body{
+    background-color: var(--body-bg-color);
+}
+
+#img-perfil{
+    border-radius: 50%;
+    border:solid;
+    border-color: var(--purple);
+}
+
+.container, .links{
+    margin: 0 auto;
+    width:fit-content;
+}
+
+.link a{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.link1 a{
+    padding-left: 50px;
+    padding-right: 75px;
+}
+
+.link a, .link1 a{
+    border: solid;
+    border-color: var(--purple);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Poppins;
+    color: var(--purple);
+    text-decoration: none;
+}
+
+.link a:hover, .link1 a:hover{
+    background-color: var(--purple);
+    color: var(--body-bg-color);
+}
+
+.icons img{
+    width: 40px;
+    height: 40px;
+    margin: 12px;
+}
